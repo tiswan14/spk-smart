@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SPK SMART Dinamis</title>
+  <link rel="stylesheet" href="./style.css">
+  
+</head>
+
+<body>
+  <h1>SPK SMART - Dinamis</h1>
+
+  <label for="criteria-count">Jumlah Kriteria:</label>
+  <input type="number" id="criteria-count" value="3" min="1" max="10">
+  <label for="alternative-count">Jumlah Alternatif (Dosen):</label>
+  <input type="number" id="alternative-count" value="3" min="1" max="10">
+  <button onclick="generateForm()">Buat Form</button>
+
+  <form id="smart-form" style="display:none">
+    <div id="form-container"></div>
+    <button type="submit">Hitung SMART</button>
+    <div id="error-message" class="error"></div>
+  </form>
+
+  <h2>Hasil Normalisasi</h2>
+  <table id="normalisasi-table" style="display:none">
+    <thead id="norm-head"></thead>
+    <tbody id="norm-body"></tbody>
+  </table>
+
+  <h2>Ranking Akhir</h2>
+  <table id="ranking-table" style="display:none">
+    <thead>
+      <tr>
+        <th>Peringkat</th>
+        <th>Nama</th>
+        <th>Skor Akhir SMART</th>
+      </tr>
+    </thead>
+    <tbody id="ranking-body"></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
