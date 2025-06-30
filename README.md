@@ -1,2 +1,2 @@
 # spk-smart
-ini untuk matkul spk yfdakljskjfjklkkaafdss
+ini untuk matkul spk yfdakljskjfjklkkaafds
