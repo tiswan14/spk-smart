@@ -1,3 +1,3 @@
 # spk-smart
 ini untuk matkul spk
-fd
+f
